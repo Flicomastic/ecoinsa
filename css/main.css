@@ -30,6 +30,12 @@ ul {
   }
 }
 
+@media (max-width: 568px) {
+  .container {
+    width: 90%;
+  }
+}
+
 header {
   background: url(../images/bg-header.jpg) no-repeat;
   text-align: center;

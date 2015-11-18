@@ -623,6 +623,7 @@ footer .reserva form .btn-enviar {
   text-decoration: none;
   width: 64.3%;
   height: 60px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {

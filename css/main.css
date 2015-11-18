@@ -102,6 +102,7 @@ header h1 {
 @media (max-width: 568px) {
   header h1 {
     margin: 50px 0 0 0;
+    font-size: 1.9em;
   }
 }
 
@@ -446,7 +447,7 @@ footer {
 
 @media (max-width: 568px) {
   footer {
-    height: 883px;
+    height: 983px;
   }
 }
 
@@ -635,7 +636,7 @@ footer .reserva form .btn-enviar {
 @media (max-width: 768px) and (max-width: 568px) {
   footer .reserva form .btn-enviar {
     margin-top: 61px;
-    font-size: 0.85em;
+    font-size: 0.72em;
   }
 }
 

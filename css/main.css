@@ -1,0 +1,680 @@
+/* FONTS */
+/* COLORS */
+/* MOBILE */
+/****************** Reset ******************/
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* FONTS */
+/* COLORS */
+/* MOBILE */
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 95%;
+  }
+}
+
+header {
+  background: url(../images/bg-header.jpg) no-repeat;
+  text-align: center;
+  height: 1150px;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 51%, 0% 67%, 0 100%);
+  -moz-clip-path: polygon(0 0, 100% 0%, 100% 51%, 0% 67%, 0 100%);
+  -ms-clip-path: polygon(0 0, 100% 0%, 100% 51%, 0% 67%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 51%, 0% 67%, 0 100%);
+}
+
+header .logo-header {
+  display: block;
+  width: 11%;
+  padding-top: 32px;
+}
+
+@media (max-width: 991px) {
+  header .logo-header {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .logo-header {
+    width: 15%;
+  }
+}
+
+@media (max-width: 568px) {
+  header .logo-header {
+    width: 88%;
+  }
+}
+
+@media (max-width: 568px) {
+  header .logo-header img {
+    width: 40%;
+  }
+}
+
+header h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 4.2em;
+  line-height: 50px;
+  margin: 120px 0 0 0;
+}
+
+@media (max-width: 1199px) {
+  header h1 {
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.5em;
+    margin: 100px 0 0 0;
+  }
+}
+
+@media (max-width: 568px) {
+  header h1 {
+    margin: 50px 0 0 0;
+  }
+}
+
+header h1 span {
+  font-weight: 800;
+  font-size: 0.45em;
+}
+
+@media (max-width: 768px) {
+  header h1 span {
+    font-size: 0.6em;
+  }
+}
+
+header h2 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  width: 45%;
+  margin: 25px auto 60px auto;
+  line-height: 26px;
+}
+
+@media (max-width: 768px) {
+  header h2 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 568px) {
+  header h2 {
+    font-size: 0.9em;
+  }
+}
+
+header h2 span {
+  color: #f7b052;
+  font-weight: 800;
+}
+
+header a {
+  background: #f7b052;
+  color: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+header a .fa-hand-paper-o {
+  font-size: 1.3em;
+  margin-right: 7px;
+}
+
+.sistema-auto {
+  text-align: center;
+  margin-top: -350px;
+}
+
+.sistema-auto h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 2.2em;
+  color: #3a3a3a;
+}
+
+@media (max-width: 568px) {
+  .sistema-auto h2 {
+    font-size: 1.8em;
+  }
+}
+
+.sistema-auto span {
+  color: #f7b052;
+}
+
+.sistema-auto h5 {
+  color: #3a3a3a;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 25px;
+  width: 45%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .sistema-auto h5 {
+    width: 80%;
+  }
+}
+
+.sistema-auto ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 70px auto -100px auto;
+}
+
+@media (max-width: 568px) {
+  .sistema-auto ul {
+    display: block;
+  }
+}
+
+.sistema-auto ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+  width: 10%;
+  padding: 20px;
+}
+
+@media (max-width: 568px) {
+  .sistema-auto ul li {
+    width: 88%;
+  }
+}
+
+.sistema-auto ul li .img-items {
+  width: 30%;
+}
+
+.sistema-auto ul li img {
+  width: 20%;
+}
+
+.sistema-auto ul li p {
+  font-size: .9em;
+  color: #9a9a9a;
+}
+
+.sistema-auto .ipad {
+  position: relative;
+  top: 170px;
+}
+
+@media (max-width: 768px) {
+  .sistema-auto .ipad {
+    width: 100%;
+  }
+}
+
+.regalo {
+  background: url(../images/bg-regalo.png) center 360px #f7b052 no-repeat;
+  color: #fff;
+  text-align: center;
+  height: 309px;
+  padding: 159px 0 0 0;
+}
+
+.regalo h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 90%;
+  margin: 30px auto 0 auto;
+  font-size: 2.3em;
+}
+
+@media (max-width: 768px) {
+  .regalo h2 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 568px) {
+  .regalo h2 {
+    font-size: 1.4em;
+  }
+}
+
+.leforet {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.leforet h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3a3a3a;
+  font-size: 3.5em;
+  line-height: 40px;
+}
+
+@media (max-width: 768px) {
+  .leforet h2 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 568px) {
+  .leforet h2 {
+    font-size: 2em;
+    line-height: 45px;
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 57px;
+  }
+}
+
+.leforet h2 span {
+  font-size: .32em;
+  font-family: "Open Sans", sans-serif;
+  text-transform: lowercase;
+}
+
+@media (max-width: 768px) {
+  .leforet h2 span {
+    font-size: .35em;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 568px) {
+  .leforet h2 span {
+    font-size: 0.45em;
+    line-height: 26px;
+    margin-top: 20px;
+    display: block;
+  }
+}
+
+.leforet .subtitle {
+  color: #9a9a9a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 800;
+  margin-bottom: 21px;
+}
+
+.leforet ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 568px) {
+  .leforet ul {
+    display: block;
+    width: 98%;
+  }
+}
+
+.leforet ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.leforet ul li img {
+  width: 100%;
+}
+
+.leforet ul li.left {
+  padding-right: 55px;
+}
+
+@media (max-width: 568px) {
+  .leforet ul li.left {
+    padding-right: 0;
+  }
+}
+
+.ubicacion {
+  text-align: center;
+}
+
+.ubicacion h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3a3a3a;
+  font-size: 3.5em;
+  line-height: 40px;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .ubicacion h2 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 568px) {
+  .ubicacion h2 {
+    font-size: 1.8em;
+    margin-top: 80px;
+  }
+}
+
+.ubicacion p {
+  font-family: "Open Sans", sans-serif;
+  color: #9a9a9a;
+}
+
+@media (max-width: 568px) {
+  .ubicacion p {
+    font-size: 1.4em;
+  }
+}
+
+.ubicacion img {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+@media (max-width: 568px) {
+  .ubicacion img {
+    width: 95%;
+  }
+}
+
+footer {
+  background: url(../images/bg-footer.jpg) no-repeat;
+  height: 762px;
+}
+
+footer .reserva {
+  padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+  footer .reserva {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+
+footer .reserva ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  footer .reserva ul {
+    display: block;
+  }
+}
+
+footer .reserva ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+footer .reserva ul a {
+  text-align: center;
+  display: block;
+  color: #9a9a9a;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+footer .reserva ul a:hover {
+  color: #3a3a3a;
+}
+
+footer .reserva h2 {
+  color: #3a3a3a;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 60px;
+  width: 70%;
+  font-size: 1.2em;
+  margin-top: 60px;
+}
+
+@media (max-width: 1199px) {
+  footer .reserva h2 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .reserva h2 {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 568px) {
+  footer .reserva h2 {
+    font-size: em;
+  }
+}
+
+footer .reserva h2 span {
+  font-family: "Raleway", sans-serif;
+  font-size: 3em;
+}
+
+footer .reserva .solo {
+  font-family: "Open Sans", sans-serif;
+  color: #3a3a3a;
+  font-size: 1.6em;
+  font-weight: 300;
+}
+
+@media (max-width: 1199px) {
+  footer .reserva .solo {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .reserva .solo {
+    margin-top: -10px;
+    margin-bottom: 50px;
+  }
+}
+
+footer .reserva form {
+  background: #fff;
+  width: 440px;
+  text-align: center;
+  padding: 60px 0 30px 0;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  footer .reserva form {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .reserva form {
+    width: 95%;
+  }
+}
+
+footer .reserva form .row-form {
+  position: relative;
+}
+
+footer .reserva form .row-form span {
+  color: #f7b052;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  font-size: 0.8em;
+}
+
+@media (max-width: 568px) {
+  footer .reserva form .row-form span {
+    left: 40px;
+  }
+}
+
+footer .reserva form input {
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  width: 60%;
+  height: 40px;
+  padding-left: 14px;
+  color: #3a3a3a;
+  border-radius: 2px;
+  border: 1px solid #E9E9E9;
+  outline: none;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 768px) {
+  footer .reserva form input {
+    width: 70%;
+  }
+}
+
+footer .reserva form input:focus {
+  border: 1px solid;
+  border-color: #f7b052;
+}
+
+footer .reserva form .btn-enviar {
+  background: #f7b052;
+  color: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  width: 64.3%;
+  height: 60px;
+}
+
+@media (max-width: 768px) {
+  footer .reserva form .btn-enviar {
+    width: 76.3%;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 568px) {
+  footer .reserva form .btn-enviar {
+    margin-top: 61px;
+  }
+}
+
+footer .reserva .left {
+  float: left;
+  padding-top: 90px;
+}
+
+@media (max-width: 768px) {
+  footer .reserva .left {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+footer .reserva .left p {
+  float: left;
+  margin-right: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #3a3a3a;
+}
+
+@media (max-width: 768px) {
+  footer .reserva .left p {
+    font-size: 0.8em;
+    margin-right: 0;
+    float: none;
+    margin-bottom: 42px;
+  }
+}
+
+footer .reserva .left img {
+  margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+  footer .reserva .left img {
+    width: 17%;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 568px) {
+  footer .reserva .left img {
+    width: 27%;
+    margin-right: 15px;
+  }
+}
+
+footer .reserva .right {
+  float: right;
+  text-align: right;
+  font-size: 0.8em;
+  position: relative;
+  color: #3a3a3a;
+  top: 45px;
+}
+
+footer .reserva .right .title {
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  footer .reserva .right {
+    width: 100%;
+    text-align: center;
+  }
+}

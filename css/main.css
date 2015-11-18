@@ -37,7 +37,8 @@ ul {
 }
 
 header {
-  background: url(../images/bg-header.jpg) no-repeat;
+  background: url(../images/bg-header.jpg) no-repeat center center fixed;
+  background-size: cover;
   text-align: center;
   height: 1150px;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 51%, 0% 67%, 0 100%);
@@ -427,8 +428,15 @@ header a .fa-hand-paper-o {
 }
 
 footer {
-  background: url(../images/bg-footer.jpg) no-repeat;
+  background: url(../images/bg-footer.jpg) no-repeat center center fixed;
+  background-size: cover;
   height: 762px;
+}
+
+@media (max-width: 568px) {
+  footer {
+    height: 883px;
+  }
 }
 
 footer .reserva {
@@ -500,7 +508,7 @@ footer .reserva h2 {
 
 @media (max-width: 568px) {
   footer .reserva h2 {
-    font-size: em;
+    font-size: 0.9em;
   }
 }
 
@@ -615,6 +623,7 @@ footer .reserva form .btn-enviar {
 @media (max-width: 768px) and (max-width: 568px) {
   footer .reserva form .btn-enviar {
     margin-top: 61px;
+    font-size: 0.85em;
   }
 }
 

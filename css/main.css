@@ -37,8 +37,7 @@ ul {
 }
 
 header {
-  background: url(../images/bg-header.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background: url(../images/bg-header.jpg) no-repeat center 0;
   text-align: center;
   height: 1150px;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 51%, 0% 67%, 0 100%);
@@ -156,9 +155,21 @@ header a {
   text-decoration: none;
 }
 
+@media (max-width: 568px) {
+  header a {
+    font-size: 0.8em;
+  }
+}
+
 header a .fa-hand-paper-o {
   font-size: 1.3em;
   margin-right: 7px;
+}
+
+@media (max-width: 568px) {
+  header a .fa-hand-paper-o {
+    display: none;
+  }
 }
 
 .sistema-auto {
